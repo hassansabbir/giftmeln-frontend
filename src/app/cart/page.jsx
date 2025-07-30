@@ -12,7 +12,7 @@ const Cart = () => {
   const [deleteFromCart] = useDeleteFromCartMutation();
 
   if (isLoading) {
-    return <h2>Loading...</h2>;
+    return <h2>Loading....</h2>;
   }
 
   const cartItems = cartData?.data?.data || [];
